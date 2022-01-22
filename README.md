@@ -5,3 +5,5 @@
 Hi there!
 
 This is the bot that 9pixel made.
+note by unevenoreo:
+i made wave bot :D
