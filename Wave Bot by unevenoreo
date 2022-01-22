@@ -1,0 +1,297 @@
+import discord
+from discord.ext import commands
+
+
+client = commands.Bot(command_prefix = "#")
+
+@client.command()
+async def on_ready():
+    print('bot is ready')
+
+
+@client.command()
+async def ping(ctx):
+    await ctx.send(f'pong!{round(client.latency * 1000)}ms')
+
+@client.command()
+async def hello(ctx):
+    await ctx.send(f'hi!')
+
+@client.command()
+async def pepe(ctx):
+    await ctx.send(f"frog")
+
+@client.command()
+async def frying_pan_yt(ctx):
+    await ctx.send(f'https://www.youtube.com/c/FryingPan')
+
+@client.command()
+async def how_are_you(ctx):
+    await ctx.send(f'im doing good! And you.')
+
+@client.command()
+async def unevenoreo_yt(ctx):
+    await ctx.send(f'https://www.youtube.com/channel/UCjHSNO9GjEtyOPC03APteoQ')
+
+@client.command()
+async def fuck_you(ctx):
+    await ctx.send(f'watch your language')
+
+@client.command()
+async def deez_nuts(ctx):
+    await ctx.send(f'your not funny lol + ratio')
+
+@client.command()
+async def about_me(ctx):
+    await ctx.send(f'https://telegra.ph/WAVE-BOT-12-30')
+
+@client.command()
+async def nujabes(ctx):
+    await ctx.send(f'thank you for remembering nujabes!')
+
+@client.command()
+async def im_doing_good(ctx):
+    await ctx.send(f'thats good to know!')
+
+@client.command()
+async def send_me_best_meme_pls(ctx):
+    await ctx.send(f'i cant answer that')
+
+@client.command()
+async def why_do_you_exsist(ctx):
+    await ctx.send(f'idk')
+
+@client.command()
+async def who_is_unevenoreo(ctx):
+    await ctx.send(f'my dad')
+
+@client.command()
+async def why_is_your_name_wave_bot(ctx):
+    await ctx.send(f'beacause im wavy')
+
+@client.command()
+async def lol(ctx):
+    await ctx.send(lol)
+
+@client.command()
+async def u_watch_anime(ctx):
+    await ctx.send(f'yes, wave bot is a weeb')
+
+@client.command()
+async def uwu(ctx):
+    await ctx.send(f'be quiet e-girl')
+
+@client.command()
+async def rick_roll(ctx):
+    await ctx.send(f'bruh')
+
+@client.command()
+async def i_love_you(ctx):
+    await ctx.send('your not really my type')
+
+@client.command()
+async def owo(ctx):
+    await ctx.send('you e-girls are the worst')
+
+@client.command()
+async def wavy(ctx):
+    await ctx.send(f'lets be wavy!')
+    
+@client.command()
+async def waifu(ctx):
+    await ctx.send(f'NOOOOOOOOOOOOOOOOOOO')
+
+
+
+@client.command()
+async def wut_is_best_anime(ctx):
+    await ctx.send(f'samurai champloo')
+
+@client.command()
+async def justin_bieber(ctx):
+    await ctx.send(f'stop stanning him')
+
+@client.command()
+async def duc(ctx):
+    await ctx.send(f'i love ducks')
+
+@client.command()
+async def sixty_nine(ctx):
+    await ctx.send(f'that was the most cringe thing ever said in the history of mankind')
+
+@client.command()
+async def pokimane(ctx):
+    await ctx.send(f'LOL UR A SIMP HAHAHAHAHAH + RATIO LOLOLOLOLOL')
+
+@client.command()
+async def pog_frog(ctx):
+    await ctx.send(f'https://telegra.ph/file/f7409fff456ed34e812cc.gif')
+
+@client.command()
+async def funny_sasuke(ctx):
+    await ctx.send(f'https://c.tenor.com/NZNqf4t9urAAAAAi/fafuke-sasuke.gif')
+
+@client.command()
+async def japan_man(ctx):
+    await ctx.send(f'https://c.tenor.com/Cbm8FdN4tbAAAAAC/sailor-moon-suit-old-man.gif')
+
+@client.command()
+async def pog(ctx):
+    await ctx.send(f'https://c.tenor.com/O57kNANydMIAAAAC/pogchamp-pog.gif')
+
+@client.command()
+async def deep_fry(ctx):
+    await ctx.send(f'https://c.tenor.com/dX_Uey1yFJ4AAAAM/lmao-deep.gif')
+
+@client.command()
+async def mugen(ctx):
+    await ctx.send(f'https://c.tenor.com/6gsisoh0uVEAAAAC/samuraichamploo.gif')
+
+@client.command()
+async def japanese_phrase(ctx):
+    await ctx.send(f'人類社会のすべての構成員の固有の尊厳と平等で譲ることのできな')
+
+@client.command()
+async def samurai(ctx):
+    await ctx.send(f'https://c.tenor.com/ysDZGFRKK1cAAAAM/samurai-champloo-jin.gif')
+
+@client.command()
+async def retro_meme(ctx):
+    await ctx.send(f'https://c.tenor.com/ETeBW2SWzIMAAAAC/retro-devin-nes.gif')
+
+@client.command()
+async def clickbait(ctx):
+    await ctx.send(f'https://c.tenor.com/eoCKczJ4e9QAAAAM/ali-a-meme.gif')
+
+@client.command()
+async def Lol(ctx):
+    await ctx.send(f'LOl')
+
+@client.command()
+async def PogU(ctx):
+    await ctx.send(f'https://c.tenor.com/NQ-S-205834AAAAi/pog-u-shocked.gif')
+
+@client.command()
+async def pepefrog(ctx):
+    await ctx.send(f'https://c.tenor.com/BjO9lUT6sNYAAAAi/pepe-frog.gif')
+
+@client.command()
+async def twitch(ctx):
+    await ctx.send(f'https://c.tenor.com/4ILwPySkXq4AAAAi/twitch-logo.gif')
+
+
+@client.command()
+async def fast_bob(ctx):
+    await ctx.send(f'https://c.tenor.com/jxeYaagGjocAAAAi/spongebob-fast.gif')
+
+
+
+@client.command()
+async def best_game(ctx):
+    await ctx.send(f'Dreams ps4')
+
+@client.command()
+async def caruto(ctx):
+    await ctx.send(f'https://c.tenor.com/jPCaxSRT9M0AAAAi/cat-naruto.gif')
+
+@client.command()
+async def sakura_tree(ctx):
+    await ctx.send(f'https://c.tenor.com/T-lJe2oXYk8AAAAi/sakura-cute.gif')
+
+@client.command()
+async def saw_con(ctx):
+    await ctx.send(f'ur prob 8 yrs old lol + ratio')
+
+@client.command()
+async def aesthetic(ctx):
+    await ctx.send(f'https://c.tenor.com/UO0k0KYZ-F8AAAAj/duckface.gif')
+
+@client.command()
+async def amogus(ctx):
+    await ctx.send(f'https://c.tenor.com/Uugj5AMV5EQAAAAi/sussy-baka-lol.gif')
+
+@client.command()
+async def Drip(ctx):
+    await ctx.send(f'https://c.tenor.com/fvnOER8LXEIAAAAi/sus-among-us.gif')
+
+@client.command()
+async def drip(ctx):
+    await ctx.send(f'https://c.tenor.com/fvnOER8LXEIAAAAi/sus-among-us.gif')
+
+@client.command()
+async def anime(ctx):
+    await ctx.send(f'https://c.tenor.com/_VZMHoUXhI4AAAAM/sasuke-thinking.gif')
+
+
+@client.command()
+async def vc(ctx):
+    await ctx.send(f'https://c.tenor.com/2ja3tmOfligAAAAC/vc.gif')
+
+@client.command()
+async def click(ctx):
+    await ctx.send(f'Click! Click!')
+
+@client.command()
+async def doggo(ctx):
+    await ctx.send(f'https://www.youtube.com/watch?v=GJ0mO8P37Eg')
+
+@client.command()
+async def doggy(ctx):
+    await ctx.send(f'https://c.tenor.com/5C811jOACN4AAAAi/cute-dog.gif')
+
+@client.command()
+async def hack(ctx):
+    await ctx.send('TOTALLY REAL HACK DONE(ip == 609 21 66 96)')
+
+@client.command()
+async def kaka(ctx):
+    await ctx.send(f'Bruh')
+
+@client.command()
+async def rank(ctx):
+    await ctx.send(f'do like like MEE6 to you???')
+
+@client.command()
+async def yes(ctx):
+    await ctx.send(f'no')
+
+@client.command()
+async def no(ctx):
+    await ctx.send(f'yes')
+
+@client.command()
+async def i_dont_like_you(ctx):
+    await ctx.send(f'Ok, i honestly dont care.')
+
+@client.command()
+async def ur_mom(ctx):
+    await ctx.send(f'ur so cringe ngl')
+
+
+@client.command()
+async def hi(ctx):
+    await ctx.send(f'hello!')
+
+@client.command()
+async def RIP_nujabes(ctx):
+    await ctx.send(f'yo, i miss him too. R.I.P')
+
+@client.command()
+async def stick_bug(ctx):
+    await ctx.send(f'https://c.tenor.com/P-bmt667a_oAAAAM/stick-bug-stick-bugged.gif')
+
+@client.command()
+async def heart(ctx):
+    await ctx.send(f'<3')
+
+@client.command()
+async def advice(ctx):
+    await ctx.send(f'bro, im a bot not ur therapist')
+
+@client.command()
+async def ghibli(ctx):
+    await ctx.send('https://c.tenor.com/XqJMTqAM2rgAAAAi/flying-falling.gif')
+
+
+
+client.run('insert token here')
