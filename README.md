@@ -1,4 +1,4 @@
-# Deepfried Bot and wave bot
+# Deepfried Bot
 9pixels' bot for Hack 4 Pan
 
 
